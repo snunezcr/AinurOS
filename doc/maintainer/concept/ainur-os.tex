@@ -1,0 +1,51 @@
+\documentclass[10pt,a4paper,twocolumn,titlepage]{report}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\author{Santiago Núñez Corrales}
+\title{AinurOS: An Exascale Integrated Operating System}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\chapter*{Preface}
+Exascale computing is the next challenge in High Performance Computing. Although growth has been sustained, current technologies are unable to satisfy the technical and functional needs of the scientific community in terms of constructive blocks for the next generation cyberinfrastructure. Software is a major responsible factor for the latter status, in particular, retrofitting already existing operating systems that do not meet the challenges posed by massive infrastructures. AinurOS is an attempt to break from previous computing tradition and develop an operating system using only a functional language (Clean). Strictly-typed functional languages provide three clear advantages compared to other approaches for the exascale endeavour: higher intellectual proficiency for the applications writer, improved code maintainability and moreover, safety and security embedded in the software design process.
+
+\chapter{AinurOS: The Concept}
+
+\section{Problem statement}
+
+Current operating systems are incapable of delivering the required resilience, automation, convenience and performance to scientific users and application developers.
+
+\section{State of the Art: Hardware}
+
+\section{State of the Art: Software}
+
+\section{Main goal}
+
+To develop a complete operating system that benefits from all the expressive features of a strictly-typed funcional language in terms of performance, safety, security and proficiency during scientific application development.
+
+\section{Outcomes}
+
+\begin{enumerate}
+\item An Operating System capable of driving the next-generation cyberinfrastructure required for the 21st century scientific advancements with the following properties:
+\begin{itemize}
+\item Resilience to frequent hardware failures
+\item Statistical debugging
+\item Efficient and accurate profiling
+\item Natural syntax for communicating with applications
+\item Powerful expression in system tools
+\item A piece of software completely written in Clean (except initial bootstrapping code in Assembly)
+\item A diffusion-based model for module activation, deactivation and coordination
+\end{itemize}
+\item A set of system libraries for developers that fulfills the needs of massively-parallel applications
+\item A proof-of-concept for functional languages as systems programming tools leading to improved performance and reliability
+\item At least one non-trivial application migrated to the operating system for open testing, including performance benchmarks
+\end{enumerate}
+
+\end{document}

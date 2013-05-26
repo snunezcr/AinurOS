@@ -31,120 +31,152 @@
     </calendar>
   </calendars>
   <tasks>
-    <task id="1" name="Conceptual design" note="&#10;" work="120000" start="20130525T000000Z" end="20130527T170000Z" work-start="20130527T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="1" name="Conceptual design" note="&#10;" work="297000" start="20130525T000000Z" end="20130610T103000Z" work-start="20130527T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <task id="2" name="Planning" note="" work="3600" start="20130525T000000Z" end="20130527T090000Z" work-start="20130527T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="3" name="Problem statement" note="" work="1200" start="20130527T090000Z" end="20130527T092000Z" work-start="20130527T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="3" name="Problem statement" note="" work="1800" start="20130527T090000Z" end="20130527T093000Z" work-start="20130527T090000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="2" type="FS"/>
         </predecessors>
       </task>
-      <task id="4" name="State of the art: hardware" note="" work="28800" start="20130525T000000Z" end="20130527T170000Z" work-start="20130527T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="5" name="State of the art: software" note="" work="28800" start="20130525T000000Z" end="20130527T170000Z" work-start="20130527T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="6" name="Goals" note="" work="28800" start="20130525T000000Z" end="20130527T170000Z" work-start="20130527T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="7" name="Specific outcomes" note="" work="28800" start="20130525T000000Z" end="20130527T170000Z" work-start="20130527T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="4" name="State of the art: hardware" note="" work="144000" start="20130527T093000Z" end="20130603T093000Z" work-start="20130527T093000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="3" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="5" name="State of the art: software" note="" work="144000" start="20130603T093000Z" end="20130610T093000Z" work-start="20130603T093000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="4" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="6" name="Goals" note="" work="1800" start="20130610T093000Z" end="20130610T100000Z" work-start="20130610T093000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="5" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="7" name="Specific outcomes" note="" work="1800" start="20130610T100000Z" end="20130610T103000Z" work-start="20130610T100000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="6" type="FS"/>
+        </predecessors>
+      </task>
     </task>
-    <task id="8" name="Hardware platform" note="" work="172800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="8" name="Hardware platform" note="" work="172800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="1" type="FS"/>
       </predecessors>
-      <task id="9" name="Evaluation of potential platforms" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="10" name="Selection of development platform" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="11" name="Selection of target platform" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="12" name="Acquisition planning" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="13" name="Acquisition" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="14" name="Setup and testing" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="9" name="Evaluation of potential platforms" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="10" name="Selection of development platform" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="11" name="Selection of target platform" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="12" name="Acquisition planning" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="13" name="Acquisition" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="14" name="Setup and testing" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
     </task>
-    <task id="15" name="Software design" note="" work="1846800" start="20130527T170000Z" end="20130529T090000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="15" name="Software design" note="" work="1715400" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="1" type="FS"/>
       </predecessors>
-      <task id="16" name="General design of components" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="17" name="General functional design" note="" work="3600" start="20130528T170000Z" end="20130529T090000Z" work-start="20130529T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+      <task id="16" name="General design of components" note="" work="3600" start="20130610T103000Z" end="20130610T113000Z" work-start="20130610T103000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="17" name="General functional design" note="" work="3600" start="20130610T113000Z" end="20130610T133000Z" work-start="20130610T113000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="16" type="FS"/>
         </predecessors>
       </task>
-      <task id="18" name="Creation of the code repository in GitHub" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="19" name="Instantiation into a local repository" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="20" name="Upload of documentation" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="21" name="Creation of software structure" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="22" name="Design of interfaces" note="" work="1699200" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-        <task id="23" name="Local" note="" work="345600" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-          <task id="24" name="Core" note="" work="172800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-            <task id="25" name="Interrupt" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="26" name="Trap" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="27" name="Scheduler" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="28" name="Bootstrap" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="29" name="Syscall" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="30" name="Process" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="18" name="Creation of the code repository in GitHub" note="" work="1800" start="20130610T133000Z" end="20130610T140000Z" work-start="20130610T133000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="17" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="19" name="Instantiation into a local repository" note="" work="1800" start="20130610T140000Z" end="20130610T143000Z" work-start="20130610T140000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="18" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="20" name="Upload of documentation" note="" work="1800" start="20130610T143000Z" end="20130610T150000Z" work-start="20130610T143000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="19" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="21" name="Creation of software structure" note="" work="3600" start="20130610T150000Z" end="20130610T160000Z" work-start="20130610T150000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="20" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="22" name="Design of interfaces" note="" work="1699200" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="23" name="Local" note="" work="345600" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="24" name="Core" note="" work="172800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <task id="25" name="Interrupt" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+            <task id="26" name="Trap" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+            <task id="27" name="Scheduler" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+            <task id="28" name="Bootstrap" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+            <task id="29" name="Syscall" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+            <task id="30" name="Process" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
           </task>
-          <task id="31" name="Arch" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="32" name="Mach" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="33" name="Mem" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="34" name="IO" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="35" name="Net" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="36" name="Drivers" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="31" name="Arch" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="32" name="Mach" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="33" name="Mem" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="34" name="IO" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="35" name="Net" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="36" name="Drivers" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
         </task>
-        <task id="37" name="Channel" note="" work="201600" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-          <task id="38" name="Compute" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="39" name="IO" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="40" name="Profile" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="41" name="Access" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="42" name="Service" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="43" name="Control" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="44" name="Debug" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="37" name="Channel" note="" work="201600" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="38" name="Compute" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="39" name="IO" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="40" name="Profile" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="41" name="Access" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="42" name="Service" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="43" name="Control" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="44" name="Debug" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
         </task>
-        <task id="45" name="IO" note="" work="316800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-          <task id="46" name="File" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="47" name="Directory" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="48" name="Traversal" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="49" name="Path" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="50" name="Atom" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="51" name="Property" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="52" name="Tag" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="53" name="Filesystem" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="54" name="Disk" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="55" name="Geometry" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="56" name="Transaction" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="45" name="IO" note="" work="316800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="46" name="File" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="47" name="Directory" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="48" name="Traversal" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="49" name="Path" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="50" name="Atom" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="51" name="Property" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="52" name="Tag" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="53" name="Filesystem" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="54" name="Disk" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="55" name="Geometry" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="56" name="Transaction" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
         </task>
-        <task id="57" name="Topology" note="" work="201600" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-          <task id="58" name="Virtual" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="59" name="Physical" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="60" name="Translation" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="61" name="Resilient" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="62" name="TaskMap" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="63" name="ProcessMap" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="64" name="DataMap" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="57" name="Topology" note="" work="201600" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="58" name="Virtual" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="59" name="Physical" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="60" name="Translation" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="61" name="Resilient" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="62" name="TaskMap" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="63" name="ProcessMap" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="64" name="DataMap" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
         </task>
-        <task id="65" name="Node" note="" work="172800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-          <task id="66" name="Head" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="67" name="IO" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="68" name="Service" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="69" name="Access" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="70" name="Compute" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="71" name="HeadRoot" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="65" name="Node" note="" work="172800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="66" name="Head" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="67" name="IO" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="68" name="Service" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="69" name="Access" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="70" name="Compute" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="71" name="HeadRoot" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
         </task>
-        <task id="72" name="User" note="" work="172800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-          <task id="73" name="User" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="74" name="Group" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="75" name="Privilege" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="76" name="Quota" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="77" name="Profile" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="78" name="Role" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="72" name="User" note="" work="172800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="73" name="User" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="74" name="Group" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="75" name="Privilege" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="76" name="Quota" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="77" name="Profile" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="78" name="Role" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
         </task>
-        <task id="79" name="Global" note="" work="172800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-          <task id="80" name="Process" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="81" name="Priority" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="82" name="Scheduler" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="83" name="Debug" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="84" name="Profile" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="85" name="Show" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="79" name="Global" note="" work="172800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="80" name="Process" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="81" name="Priority" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="82" name="Scheduler" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="83" name="Debug" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="84" name="Profile" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="85" name="Show" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
         </task>
-        <task id="86" name="Module" note="" work="115200" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-          <task id="87" name="Module" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="88" name="Expression" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="89" name="Inhibition" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="90" name="Catalysis" note="" work="28800" start="20130527T170000Z" end="20130528T170000Z" work-start="20130528T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="86" name="Module" note="" work="115200" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="87" name="Module" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="88" name="Expression" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="89" name="Inhibition" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="90" name="Catalysis" note="" work="28800" start="20130610T103000Z" end="20130611T103000Z" work-start="20130610T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
         </task>
       </task>
     </task>
@@ -270,6 +302,15 @@
     <resource id="1" name="Santiago N&#xFA;&#xF1;ez Corrales" short-name="SNC" type="1" units="0" email="snunezcr@gmail.com" note="" std-rate="50"/>
   </resources>
   <allocations>
+    <allocation task-id="4" resource-id="1" units="100"/>
+    <allocation task-id="5" resource-id="1" units="100"/>
+    <allocation task-id="6" resource-id="1" units="100"/>
+    <allocation task-id="7" resource-id="1" units="100"/>
+    <allocation task-id="21" resource-id="1" units="100"/>
+    <allocation task-id="20" resource-id="1" units="100"/>
+    <allocation task-id="19" resource-id="1" units="100"/>
+    <allocation task-id="18" resource-id="1" units="100"/>
+    <allocation task-id="16" resource-id="1" units="100"/>
     <allocation task-id="2" resource-id="1" units="100"/>
     <allocation task-id="17" resource-id="1" units="100"/>
     <allocation task-id="3" resource-id="1" units="100"/>
