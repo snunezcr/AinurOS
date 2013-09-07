@@ -27,7 +27,7 @@ implementation module OSChannel
 			| FlowAll
 
 ::OSChannelMode		= Upstream
-			| Downstrem
+			| Downstream
 			| Both
 
 ::OSChannelMsg 		= undef
