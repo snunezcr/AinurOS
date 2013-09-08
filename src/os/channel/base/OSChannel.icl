@@ -69,6 +69,8 @@ oschannel_queue :: OSChannel OSChannelMsg -> OSChannel
 oschannel_queue ch msg = {ch & content = [msg:ch.content]}
 
 oschannel_send :: OSChannel -> OSChannel
+oschannel_send ch
+	| ch.state == Hold	= ch
 
 oschannel_send_all :: OSChannel -> OSChannel
 
