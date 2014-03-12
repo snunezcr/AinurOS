@@ -44,3 +44,5 @@ definition module OSTypes
 ::OSDouble
 
 ::OSLongDouble
+
+::OSString
