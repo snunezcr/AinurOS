@@ -34,6 +34,8 @@ import OSStatus
 
 ::OSMemPageOffset
 
+::OSMemPageStatus
+
 ::OSMemPageSpecs
 
 ::OSMemType
