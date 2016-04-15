@@ -1,0 +1,6 @@
+#!/bin/sh
+
+ROOT=../../..
+TARGET=hello
+
+source ${ROOT}/app/build/build.sh

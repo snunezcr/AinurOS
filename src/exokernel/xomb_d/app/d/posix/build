@@ -1,0 +1,6 @@
+#!/bin/sh
+
+ROOT=../../..
+TARGET=posix
+
+source ${ROOT}/app/build/build.sh

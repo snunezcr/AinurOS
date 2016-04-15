@@ -1,0 +1,13 @@
+romimage: file=/usr/share/bochs/BIOS-bochs-latest
+megs: 1024
+ata1-slave:  type=cdrom, path="./xomb.iso", status=inserted
+boot: cdrom
+cpu: count=4, reset_on_triple_fault=0
+#ne2k: ioaddr=0x300, irq=9, mac=b0:c4:20:00:00:00, ethmod=null, ethdev=eth0
+#i440fxsupport: enabled=1, slot1=pcivga, slot2=ne2k
+
+# debug
+magic_break: enabled=1
+debug_symbols: file=xomb.sym
+
+#ata2-master: type=disk, path=10M.sample, cylinders=306, heads=4, spt=17
